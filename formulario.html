@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="IniCardFormulario"><h1>Formulario payico</h1></div>
+   
+  <div class="MarcoFormulario">
+    <div class="FormularioContent">
+        <form action="/aunNoTengo" method="Post"></form>
+        <label for="usuario">Como te llamas dime</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Aquí va tu usuario"><br>
+        <br>
+        <label for="contra">Contraseña</label>
+        <input type="password" id="contra" name="contra"><br>
+        <br>
+        <label>Cual es tu personaje favorito del juego?:</label><br>
+        <label for="Dante">Dante</label>
+        <input type="radio" name="PersonajeFav" id="Dante" value="Dante"><br>
+        <label for="Vergil">La tormenta que se avecina (Vergil)</label>
+        <input type="radio" name="PersonajeFav" id="Vergil" value="Vergil"><br>
+        <label for="Kat">Kat</label>
+        <input type="radio" name="PersonajeFav" id="Kat" value="Kat"><br>
+        <br>
+        <label for="PrimerDMC">Cual fue tu primer Dmc</label>
+        <select name="PrimerDMC" id="PrimerDMC">
+            <option>DMC 1</option>
+            <iotion>DMC 2</iotion>
+            <option>DMC 3</option>
+            <option>DMC 4</option>
+            <option>DMC 5</option>
+            <option>DMC Devil May Cry</option>
+        </select><br>
+        <br>
+        <label for="terminos">estos datos servirán para fines estadísticos y nada de hackeo eso no</label>
+        <input type="checkbox" name="terminos" id="terminos" value="aceptar"><br>
+        <input type="submit" value="enviar">
+    </form>
+    </div>
+  </div>
+
+
+    <br>
+    <br>
+    <div class="BotonInicio">
+        <a href="index.html">
+        <button>Volver al inicio</button>
+        </a>
+    </div>
+
+
+</body>
+</html>

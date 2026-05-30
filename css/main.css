@@ -1,0 +1,39 @@
+.IniCardFormulario {
+    color:rgb(245, 245, 245);
+    background-image: url("../foticos/BloodPixel-Photoroom.png");
+    height:500px;
+}
+
+.IniCardFormulario h1 {
+    margin-left: 35px;
+    padding: 15px;
+}
+
+.MarcoFormulario {
+    background-image: url("../foticos/MarcoRemas.png");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;    
+    box-shadow: rgb(87, 87, 193);
+}
+
+.FormularioContent {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+}
+
+.encuestaVotarPresen {
+    background-image: url("../foticos/red\ trees\ 2.jpeg");
+    color:aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
