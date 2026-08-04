@@ -28,12 +28,38 @@
 }
 
 .encuestaVotarPresen {
-    background-image: url("../foticos/red\ trees\ 2.jpeg");
+    background-image: url("../foticos/BloodPixel-Photoroom.png");
     color:aliceblue;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.votarPage {
+    background-image: url("../foticos/@mridultraj.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.EncuestaFinalVotar {
+   color:aliceblue;
+   background-image: url("../foticos/fondodesol.jpeg");
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 400px;
+   text-align: center;
+   margin: 0 auto;
+   line-height: 30px;
+   margin: 0 auto;
+   width: 700px;
+   padding-top: 40px;
+   border-radius: 10px;
 }
