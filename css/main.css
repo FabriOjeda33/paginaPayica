@@ -63,3 +63,39 @@
    padding-top: 40px;
    border-radius: 10px;
 }
+
+.panelInicioOtraPrin {
+    background-image: url("../foticos/Captura\ de\ pantalla_20260808_023434.png");
+    height: 204px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 360px 210px;
+}
+
+.annerPanitaPa {
+    background-image: url("../foticos/Fondo\ de\ pantalla\ para\ YouTube\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: 1090px 90px;
+    height: 90px;
+    background-position: 200px 0px;
+    background-attachment: fixed;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menuOtraPrin {
+    text-align: cover;
+}
+
+.logoNoLogo {
+    background-image: url("../foticos/lineaCal.jpeg");
+    background-position: cover;
+    background-size: 13% 90px;
+    background-repeat: no-repeat;
+    height: 100px;
+    color:aliceblue;
+}
